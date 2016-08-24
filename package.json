@@ -10,10 +10,10 @@
   },
   "license": "MIT",
   "files": [
-    "index.js",
+    "dist",
     "LICENSE"
   ],
-  "main": "index.js",
+  "main": "dist/main.js",
   "engines": {
     "node": ">=0.10.0"
   },
@@ -24,5 +24,11 @@
     "invite",
     "slack",
     "wt"
-  ]
+  ],
+  "dependencies": {
+    "slack-invite": "^1.1.0"
+  },
+  "devDependencies": {
+    "gulp": "github:gulpjs/gulp#4.0"
+  }
 }
