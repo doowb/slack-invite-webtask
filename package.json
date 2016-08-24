@@ -1,0 +1,28 @@
+{
+  "name": "slack-invite-wt",
+  "description": "Webtask to invite users to a slack team.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/sellside/slack-invite-wt",
+  "author": "Brian Woodward (https://github.com/doowb)",
+  "repository": "sellside/slack-invite-wt",
+  "bugs": {
+    "url": "https://github.com/sellside/slack-invite-wt/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "invite",
+    "slack",
+    "wt"
+  ]
+}
