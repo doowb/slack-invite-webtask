@@ -11,24 +11,25 @@
   "license": "MIT",
   "files": [
     "dist",
+    "index.js",
     "LICENSE"
   ],
-  "main": "dist/main.js",
+  "main": "index.js",
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
     "test": "mocha"
   },
-  "keywords": [
-    "invite",
-    "slack",
-    "wt"
-  ],
   "dependencies": {
     "slack-invite": "^1.1.0"
   },
   "devDependencies": {
     "gulp": "github:gulpjs/gulp#4.0"
-  }
+  },
+  "keywords": [
+    "invite",
+    "slack",
+    "wt"
+  ]
 }
