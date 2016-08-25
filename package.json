@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-bundle-webtask": "^0.1.0",
     "gulp-format-md": "^0.1.10"
   },
   "keywords": [
