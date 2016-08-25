@@ -22,7 +22,7 @@ module.exports = function(ctx, req, res) {
 
 ## What is this?
 
-This module is intended to be used in a [webtask](https://github.com/auth0/webtask-js).io task to provide slack invitation functionality.
+This module is intended to be used in a [webtask.io](https://webtask.io/) task to provide slack invitation functionality.
 
 There is a distribution file provided in [dist/main.js](dist/main.js) if you want to deploy it to webtask.io directly using the following command:
 
@@ -50,6 +50,10 @@ After the webtask has been created, it can be used by `POST`ing to the webtask u
 A JSON object will be returned. If an error occurs, the JSON object will contain an `error` property with the corresponding error message. Otherwise, the success message from slack will be returned.
 
 ## About
+
+### Related projects
+
+[gulp-bundle-webtask](https://www.npmjs.com/package/gulp-bundle-webtask): Gulp plugin for browserifying and bundling your source code before deploying to webtask.io. | [homepage](https://github.com/doowb/gulp-bundle-webtask "Gulp plugin for browserifying and bundling your source code before deploying to webtask.io.")
 
 ### Contributing
 
