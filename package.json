@@ -48,7 +48,9 @@
       "reflinks": true
     },
     "related": {
-      "list": []
+      "list": [
+        "gulp-bundle-webtask"
+      ]
     },
     "reflinks": [
       "verb",
