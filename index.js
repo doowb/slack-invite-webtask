@@ -29,8 +29,7 @@ module.exports = function (ctx, req, res) {
   var options = {
     email: email,
     team: team,
-    token: token,
-    channels: 'general'
+    token: token
   };
 
   invite(options, function(response) {
