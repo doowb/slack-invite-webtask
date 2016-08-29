@@ -1,6 +1,6 @@
-# slack-invite-wt [![NPM version](https://img.shields.io/npm/v/slack-invite-wt.svg?style=flat)](https://www.npmjs.com/package/slack-invite-wt) [![NPM downloads](https://img.shields.io/npm/dm/slack-invite-wt.svg?style=flat)](https://npmjs.org/package/slack-invite-wt) [![Build Status](https://img.shields.io/travis/sellside/slack-invite-wt.svg?style=flat)](https://travis-ci.org/sellside/slack-invite-wt)
+# slack-invite-wt [![NPM version](https://img.shields.io/npm/v/slack-invite-wt.svg?style=flat)](https://www.npmjs.com/package/slack-invite-wt) [![NPM downloads](https://img.shields.io/npm/dm/slack-invite-wt.svg?style=flat)](https://npmjs.org/package/slack-invite-wt) [![Build Status](https://img.shields.io/travis/doowb/slack-invite-wt.svg?style=flat)](https://travis-ci.org/doowb/slack-invite-wt)
 
-Webtask to invite users to a slack team.
+Webtask.io service to invite users to a slack team.
 
 ## Install
 
@@ -89,7 +89,7 @@ $ npm install -d && npm test
 ### License
 
 Copyright © 2016, [Brian Woodward](https://github.com/doowb).
-Released under the [MIT license](https://github.com/sellside/slack-invite-wt/blob/master/LICENSE).
+Released under the [MIT license](https://github.com/doowb/slack-invite-wt/blob/master/LICENSE).
 
 ***
 
