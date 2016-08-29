@@ -2,10 +2,10 @@
 
 require('mocha');
 var assert = require('assert');
-var slackInviteWt = require('./');
+var webtask = require('./');
 
-describe('slack-invite-wt', function() {
+describe('slack-invite-webtask', function() {
   it('should export a function', function() {
-    assert.equal(typeof slackInviteWt, 'function');
+    assert.equal(typeof webtask, 'function');
   });
 });

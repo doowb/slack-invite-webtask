@@ -1,12 +1,12 @@
 {
-  "name": "slack-invite-wt",
+  "name": "slack-invite-webtask",
   "description": "Webtask.io service to invite users to a slack team.",
   "version": "0.1.0",
-  "homepage": "https://github.com/doowb/slack-invite-wt",
+  "homepage": "https://github.com/doowb/slack-invite-webtask",
   "author": "Brian Woodward (https://github.com/doowb)",
-  "repository": "doowb/slack-invite-wt",
+  "repository": "doowb/slack-invite-webtask",
   "bugs": {
-    "url": "https://github.com/doowb/slack-invite-wt/issues"
+    "url": "https://github.com/doowb/slack-invite-webtask/issues"
   },
   "license": "MIT",
   "files": [
