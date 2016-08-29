@@ -43,12 +43,11 @@ module.exports = function (ctx, req, res) {
 
 function done(res) {
   return function(err, data) {
+    res.writeHead(200, { 'Content-Type': 'application/json' });
     if (err) {
-      res.writeHead(500, { 'Content-Type': 'application/json' });
-      res.end(JSON.stringify({error: err.message}));
+      res.end(JSON.stringify({ok: false, error: err.message}));
       return;
     }
-    res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(typeof data === 'object' ? JSON.stringify(data) : data);
   };
 }
