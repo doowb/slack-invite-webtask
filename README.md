@@ -1,4 +1,4 @@
-# slack-invite-wt [![NPM version](https://img.shields.io/npm/v/slack-invite-wt.svg?style=flat)](https://www.npmjs.com/package/slack-invite-wt) [![NPM downloads](https://img.shields.io/npm/dm/slack-invite-wt.svg?style=flat)](https://npmjs.org/package/slack-invite-wt) [![Build Status](https://img.shields.io/travis/doowb/slack-invite-wt.svg?style=flat)](https://travis-ci.org/doowb/slack-invite-wt)
+# slack-invite-webtask [![NPM version](https://img.shields.io/npm/v/slack-invite-webtask.svg?style=flat)](https://www.npmjs.com/package/slack-invite-webtask) [![NPM downloads](https://img.shields.io/npm/dm/slack-invite-webtask.svg?style=flat)](https://npmjs.org/package/slack-invite-webtask) [![Build Status](https://img.shields.io/travis/doowb/slack-invite-webtask.svg?style=flat)](https://travis-ci.org/doowb/slack-invite-webtask)
 
 Webtask.io service to invite users to a slack team.
 
@@ -7,13 +7,13 @@ Webtask.io service to invite users to a slack team.
 Install with [npm](https://www.npmjs.com/):
 
 ```sh
-$ npm install --save slack-invite-wt
+$ npm install --save slack-invite-webtask
 ```
 
 ## Usage
 
 ```js
-var invite = require('slack-invite-wt');
+var invite = require('slack-invite-webtask');
 module.exports = function(ctx, req, res) {
   // do any customization for your implementation here
   invite(ctx, req, res);
@@ -27,7 +27,7 @@ This module is intended to be used in a [webtask.io](https://webtask.io/) task t
 There is a distribution file provided in [dist/main.js](dist/main.js) if you want to deploy it to webtask.io directly using the following command:
 
 ```bash
-$ wt create node_modules/slack-invite-wt/dist/main.js --name my-slack-invite-name --secret SLACK_TEAM='my-slack-team' --secret SLACK_TOKEN='XXXXXXX'
+$ wt create node_modules/slack-invite-webtask/dist/main.js --name my-slack-invite-name --secret SLACK_TEAM='my-slack-team' --secret SLACK_TOKEN='XXXXXXX'
 ```
 
 The main requirement is to provide the `SLACK_TEAM` and `SLACK_TOKEN` values. The above example shows setting them as secrets so they'll be available on the `ctx` when the webtask is executed.
@@ -89,7 +89,7 @@ $ npm install -d && npm test
 ### License
 
 Copyright © 2016, [Brian Woodward](https://github.com/doowb).
-Released under the [MIT license](https://github.com/doowb/slack-invite-wt/blob/master/LICENSE).
+Released under the [MIT license](https://github.com/doowb/slack-invite-webtask/blob/master/LICENSE).
 
 ***
 
